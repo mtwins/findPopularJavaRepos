@@ -2,7 +2,7 @@ from git import Repo
 projects_directory = 'REPLACE_WITH_PROJECTS_DIRECTORY'
 
 if __name__ == '__main__':
-    with open('github_repos_to_clone') as file:
+    with open('utils/github_repos_to_clone') as file:
         repos = file.readlines()
         repos = [line.rstrip() for line in repos]
         for repo_url in repos:

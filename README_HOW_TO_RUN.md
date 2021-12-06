@@ -1,4 +1,6 @@
-**How to Run the Scripts in this Repository**
+##How to Run the Scripts in this Repository
+
+We developed and ran all of these scripts using Python 3 and Pycharm. Having Python 3 installed is a prerequisite to running the scripts.
 
 _IMPORTANT: Reference instructions in the directory level README files to learn how to run a certain script._
 

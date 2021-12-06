@@ -8,7 +8,7 @@ pip install beautifulsoup4
 3) After validating that the information in the generated csv file is correct, copy the commit, star, and fork numbers from the csv file into the respective arrays in the calculate_repo_metrics.py script
 4) Run the calculate_repo_metrics.py script to get the repository metrics
 
-### Commands to run scripts from root directory in terminal
+#### Commands to run scripts from root directory in terminal
 ```
 python3 scripts/repositoryMetrics/get_final_repos_data.py
 python3 scripts/repositoryMetrics/calculate_repo_metrics.py

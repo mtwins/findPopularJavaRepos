@@ -5,7 +5,7 @@
 4) Download and install PMD from the following [website](https://pmd.github.io/) 
 5) Run the script using the command below to get a csv file of the amount of code smells that PMD detected for each of the projects in the project directory specified
 
-### Command to run script from root directory in terminal
+#### Command to run script from root directory in terminal
 ```
 python3 pmd/pmd_automation.py
 ```

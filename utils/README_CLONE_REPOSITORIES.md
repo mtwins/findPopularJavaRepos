@@ -4,7 +4,7 @@
 3) Update the projects_directory variable in clone.py to the directory you want the projects to get cloned into. 
 4) Run clone.py to automatically clone the repository urls in github_repos_to_clone to the project directory specified.
 
-### Command to run script from root directory in terminal
+#### Command to run script from root directory in terminal
 ```
 python3 utils/clone.py
 ```

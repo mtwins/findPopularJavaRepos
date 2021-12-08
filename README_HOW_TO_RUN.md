@@ -1,6 +1,6 @@
 ## How to Run the Scripts in this Repository
 
-We developed and ran all of these scripts using Python 3 and the [Pycharm](https://www.jetbrains.com/pycharm/) / [IntelliJ](https://www.jetbrains.com/idea/) IDEs. Having Python 3 installed is a prerequisite to running the scripts. You can download Python 3 [here](https://www.python.org/downloads/).
+We developed and ran all of these scripts using Python 3 and the [Pycharm](https://www.jetbrains.com/pycharm/) / [IntelliJ](https://www.jetbrains.com/idea/) IDEs. Having Python 3 installed is a prerequisite to running the scripts. You can download Python 3 based on your specific OS [here](https://www.python.org/downloads/).
 
 _IMPORTANT: Reference instructions in the directory level README files to learn how to run a certain script._
 

@@ -14,12 +14,11 @@ python scripts/getRepositories/get_trending_repos.py
 ```
 
 ## Instructions to run Get Repo Size script##
-1) Make sure to have the BeautifulSoup and requests python libraries installed
+1) Make sure to have the requests python library installed
 ```
 pip install requests
-pip install beautifulsoup4
 ```
-2) Create a GitHub Personal Access token(with full repo permission): [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+2) As the endpoint has rate limiting for unauthorized users, create a GitHub Personal Access token(with full repo permission): [instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 3) Replace the following text in get_repo_size.py with your token: {replace with personal access token}
 4) Run the get_repo_size.py script to get the size of the repos according to the GitHub Api in a csv file and identify the largest repo
 

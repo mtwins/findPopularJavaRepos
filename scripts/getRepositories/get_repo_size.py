@@ -1,7 +1,4 @@
 import csv
-from time import sleep
-
-from bs4 import BeautifulSoup
 import requests
 
 
@@ -108,25 +105,6 @@ finalized_repos = [
     ("tarunsinghofficial","HacktoberFest")
 ]
 
-
-
-def get_repo_info():
-    page = requests.get(repo['html_url'])
-    soup = BeautifulSoup(page.content, 'html.parser')
-    try:
-        commit_elements = soup.find_all('span', class_="d-none d-sm-inline")
-        commits = commit_elements[1].getText().split()[0]
-    except IndexError:
-        commits = "0"  # if coud not find commits set as 0 for now- have to manually find them
-
-    license = "None"
-    if repo['license']:
-        license = repo['license']['name']
-    writer.writerow(
-        [repo['name'], repo['html_url'], repo['stargazers_count'], repo['forks_count'], int(commits.replace(",", "")),
-         license, repo['updated_at'], repo['size'], repo['visibility']])
-
-
 if __name__ == '__main__':
     with open('repository-size.csv', mode='w') as result_file:
         writer = csv.writer(result_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
@@ -136,7 +114,6 @@ if __name__ == '__main__':
         for repo_number in range(0,100):
             response = requests.get(
                 f'https://api.github.com/repos/{finalized_repos[repo_number][0]}/{finalized_repos[repo_number][1]}', headers={'Authorization': 'token {replace with personal access token}'})
-            sleep(1)
             # print(response.json())
             try:
                 print(f'{finalized_repos[repo_number][0]}/{finalized_repos[repo_number][1]}: {response.json()["size"]} kb')

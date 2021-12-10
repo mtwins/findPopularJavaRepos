@@ -1,4 +1,4 @@
-## Instructions to run Get Repositories scripts##
+## Instructions to run Get Repositories scripts
 1) Make sure to have the BeautifulSoup and requests python libraries installed
 ```
 pip install requests
@@ -13,7 +13,7 @@ python scripts/getRepositories/get_top_repos.py
 python scripts/getRepositories/get_trending_repos.py
 ```
 
-## Instructions to run Get Repo Size script##
+## Instructions to run Get Repo Size script
 1) Make sure to have the requests python library installed
 ```
 pip install requests

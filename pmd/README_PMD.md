@@ -7,5 +7,5 @@
 
 #### Command to run script from root directory in terminal
 ```
-python3 pmd/pmd_automation.py
+python pmd/pmd_automation.py
 ```

@@ -9,5 +9,5 @@ _Note: This script is meant to be run separately for the data from each static c
 
 #### Command to run script from root directory in terminal
 ```
-python3 scripts/god_class_calc.py
+python scripts/god_class_calc.py
 ```

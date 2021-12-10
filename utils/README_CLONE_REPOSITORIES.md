@@ -6,5 +6,5 @@
 
 #### Command to run script from root directory in terminal
 ```
-python3 utils/clone_repositories.py
+python utils/clone_repositories.py
 ```

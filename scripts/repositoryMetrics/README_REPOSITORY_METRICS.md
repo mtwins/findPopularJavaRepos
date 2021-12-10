@@ -10,6 +10,6 @@ pip install beautifulsoup4
 
 #### Commands to run scripts from root directory in terminal
 ```
-python3 scripts/repositoryMetrics/get_final_repos_data.py
-python3 scripts/repositoryMetrics/calculate_repo_metrics.py
+python scripts/repositoryMetrics/get_final_repos_data.py
+python scripts/repositoryMetrics/calculate_repo_metrics.py
 ```

@@ -9,6 +9,6 @@ pip install beautifulsoup4
 
 #### Commands to run scripts from root directory in terminal
 ```
-python3 scripts/getRepositories/get_top_repos.py
-python3 scripts/getRepositories/get_trending_repos.py
+python scripts/getRepositories/get_top_repos.py
+python scripts/getRepositories/get_trending_repos.py
 ```
